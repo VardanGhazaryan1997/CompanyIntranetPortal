@@ -1,0 +1,60 @@
+﻿@model CompanyIntranetPortal.Core.Entities.Book
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4>Book Details</h4>
+
+<div style="display:flex; justify-content:center">
+    <div>
+        <div class="card" style="width:20rem;margin:20px 0 24px 0">
+            <img class="card-img-top" src="@Model.ImgUrl" alt="image" style="width:100%">
+        </div>
+    </div>
+    <div style="margin:30px 50px">
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Authors)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Authors)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PageCount)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PageCount)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PublishedOn)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PublishedOn)
+            </dd>
+            <dt class="col-sm-2">
+            </dt>
+            <dd class="col-sm-10">
+                @if (Model.IsAvailable)
+                {
+                    <span class="badge badge-success">Available</span>
+                }
+                else
+                {
+                    <span class="badge badge-secondary">Not Available</span>
+                }
+            </dd>
+        </dl>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

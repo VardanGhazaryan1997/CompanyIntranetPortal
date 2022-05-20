@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CompanyIntranetPortal.Core.Entities.Application>
+@using static CompanyIntranetPortal.Helpers.Helper
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Applications</h4>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Application Type
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                State
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @item.ApplicationType?.Name
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    <span class="badge @(GetState(item.ApplicationState) )">
+                        @item.ApplicationState
+                    </span>
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id=item.Id})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,140 @@
+﻿@using CompanyIntranetPortal.Core.Entities
+@using CompanyIntranetPortal.Infrastructure.Services
+@using Microsoft.Extensions.Caching.Memory;
+@inject IUserService _userService;
+@{
+    var jubilees = await _userService.GetJubilees();
+    var newMembers = await _userService.GetNewMembers();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] CompanyIntranetPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CompanyIntranetPortal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/assets/styles/userLayout.css">
+    <link rel="stylesheet" href="~/assets/styles/books.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="navbar_brand_buttons">
+                    @{
+                        var claim = Context.User.Claims.FirstOrDefault(c => c.Type == "Roles"); 
+                        var isAdmin = claim.Value.Contains("Admin");
+                    }
+                    @if (isAdmin)
+                    {
+                        <a class="badge admin_button" asp-action="Index" asp-controller="Admin">Admin</a>
+                    }
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">CompanyIntranetPortal</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar_list">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle text-black" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    HR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-controller="Vacancies" asp-action="Index" style="color:black !important">Vacancies</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="MyDevelopment" asp-action="Books">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a asp-action="Logout" asp-controller="Account">
+                                <img src="~/assets/img/icons8-logout-50.png" alt="logout">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3 main">
+            <div class="row d-flex align-items-start justify-content-between">
+                <div class="col-md-2">
+                    <div class="card  text-white mb-3">
+                        <div class="card-header" style="background-color:#17a2b8;display:flex;justify-content:center">
+                            <div style="padding:2px">
+                                New Members
+                                <span><img src="~/assets/img/man.png" style="" width="25px" height="25px" /></span>
+                            </div>
+                        </div>
+                        <div class="overflow-auto" style="height:200px">
+                            <ul class="list-group list-group-flush">
+                                @if (newMembers != null)
+                                {
+                                    @foreach (var user in newMembers)
+                                    {
+                                        <li class="list-group-item" style="background-color: rgba(0,0,0,.03);">@user.FirstName @user.LastName</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                        <div class="card-header" style="height:40px;background-color:#17a2b8;display:flex;justify-content:center">
+                            <div style="padding:2px">@DateTime.Now.Date.AddDays(-14).ToShortDateString() - @DateTime.Now.Date.ToShortDateString()</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 post_contents">
+
+                    @RenderBody()
+                </div>
+                <div class="col-md-2">
+                    <div class="card  text-white mb-3">
+                        <div class="card-header" style="background-color:#17a2b8;display:flex;justify-content:center">
+                            <div style="padding:2px">
+                                Todays Birthdays
+                                <span><img src="~/assets/img/party.png" style="" width="25px" height="25px" /></span>
+                            </div>
+                        </div>
+                        <div class="overflow-auto" style="height:200px">
+                            <ul class="list-group list-group-flush">
+                                @if (jubilees != null)
+                                {
+                                    @foreach (var user in jubilees)
+                                    {
+                                        <li class="list-group-item" style="background-color: rgba(0,0,0,.03);">@user.FirstName @user.LastName</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                        <div class="card-header" style="height:40px;background-color:#17a2b8;display:flex;justify-content:center">
+                            <div style="padding:2px">@DateTime.Now.ToString("dd/mm/yyyy")</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - CompanyIntranetPortal
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

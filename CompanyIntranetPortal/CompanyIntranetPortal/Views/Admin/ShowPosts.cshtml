@@ -1,0 +1,14 @@
+﻿@using CompanyIntranetPortal.Core.Entities
+@model List<Post>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@foreach(var item in Model){
+<div>
+    <div>@item.Title</div>
+    <div>@item.ShortDescription</div>
+    <div>@Html.Raw(item.Content)</div>
+</div>
+}

@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal\\CompanyIntranetPortal.csproj": {}
+  },
+  "projects": {
+    "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\CompanyIntranetPortal.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\CompanyIntranetPortal.Core.csproj",
+        "projectName": "CompanyIntranetPortal.Core",
+        "projectPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\CompanyIntranetPortal.Core.csproj",
+        "packagesPath": "C:\\Users\\Vardan\\.nuget\\packages\\",
+        "outputPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vardan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\CompanyIntranetPortal.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\CompanyIntranetPortal.Infrastructure.csproj",
+        "projectName": "CompanyIntranetPortal.Infrastructure",
+        "projectPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\CompanyIntranetPortal.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Vardan\\.nuget\\packages\\",
+        "outputPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vardan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\CompanyIntranetPortal.Core.csproj": {
+                "projectPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Core\\CompanyIntranetPortal.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal\\CompanyIntranetPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal\\CompanyIntranetPortal.csproj",
+        "projectName": "CompanyIntranetPortal",
+        "projectPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal\\CompanyIntranetPortal.csproj",
+        "packagesPath": "C:\\Users\\Vardan\\.nuget\\packages\\",
+        "outputPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vardan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\CompanyIntranetPortal.Infrastructure.csproj": {
+                "projectPath": "C:\\PolitexProject\\CompanyIntranetPortal\\CompanyIntranetPortal.Infrastructure\\CompanyIntranetPortal.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

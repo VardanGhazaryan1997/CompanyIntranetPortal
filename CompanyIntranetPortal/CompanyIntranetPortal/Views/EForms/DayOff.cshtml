@@ -1,0 +1,35 @@
+﻿@model CompanyIntranetPortal.Models.DayOffViewModel
+
+@{
+    ViewData["Title"] = "Vacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Create Dayoff Application</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DayOff">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" type="date" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Substitute" class="control-label"></label>
+                <select id="typesSelect" asp-for="Substitute" class="form-control" asp-items="@ViewBag.Users">
+                    <option value="0">-- select one --</option>
+                </select>
+                <span asp-validation-for="Substitute" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-blue" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

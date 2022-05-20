@@ -1,0 +1,260 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CompanyIntranetPortal
+build_property.RootNamespace = CompanyIntranetPortal
+build_property.ProjectDir = C:\Users\Vardan\Source\Repos\CompanyIntranetPortal\CompanyIntranetPortal\CompanyIntranetPortal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Vardan\Source\Repos\CompanyIntranetPortal\CompanyIntranetPortal\CompanyIntranetPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/ApplicationDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwbGljYXRpb25EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/ApplicationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwbGljYXRpb25EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/Applications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwbGljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/BankAccountChangeRequestDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmFua0FjY291bnRDaGFuZ2VSZXF1ZXN0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/BankAccountChangeRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmFua0FjY291bnRDaGFuZ2VSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/DayoffRequestDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGF5b2ZmUmVxdWVzdERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/DayoffRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGF5b2ZmUmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/EditPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/EForms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRUZvcm1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/JobLeftRequestDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9iTGVmdFJlcXVlc3REZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/JobLeftRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9iTGVmdFJlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9zdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/Posts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/ServiceDesk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydmljZURlc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/ShowPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1Bvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/TicketDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlja2V0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/TicketDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlja2V0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/Vacancies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmFjYW5jaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/VacancyCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmFjYW5jeUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/VacancyDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmFjYW5jeURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/VacancyDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmFjYW5jeURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/VacancyEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmFjYW5jeUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Admin/VocationRequestDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVm9jYXRpb25SZXF1ZXN0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Application/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Application/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Application/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/EForms/BankAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUZvcm1zXEJhbmtBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/EForms/DayOff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUZvcm1zXERheU9mZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/EForms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUZvcm1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/EForms/JobLeft.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUZvcm1zXEpvYkxlZnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/EForms/Vacation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUZvcm1zXFZhY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/MyDevelopment/Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlEZXZlbG9wbWVudFxCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Posts/ReadPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcUmVhZFBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/ServiceDesk/CreateTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZURlc2tcQ3JlYXRlVGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/ServiceDesk/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZURlc2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/ServiceDesk/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZURlc2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Shared/_EmptyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FbXB0eUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Users/Edith.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Vacancies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Vacancies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vardan/Source/Repos/CompanyIntranetPortal/CompanyIntranetPortal/CompanyIntranetPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w8mf67bcww

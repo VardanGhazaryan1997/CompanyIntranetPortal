@@ -1,0 +1,25 @@
+﻿@using CompanyIntranetPortal.Core.Entities
+@model List<Book>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row d-flex align-items-center justify-content-center">
+        @foreach (var item in @Model)
+        {   
+            <div class="col-md-4 card card_position flex-grow-1 mb-2">
+                <img src="@item.ImgUrl" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">@item.Authors</p>
+                </div>
+                @if (item.IsAvailable)
+                            {
+                                <span class="badge badge-success available_and_not not">Available</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-secondary available_and_not">Not Available</span>
+                            }
+            </div>
+        }
+</div>

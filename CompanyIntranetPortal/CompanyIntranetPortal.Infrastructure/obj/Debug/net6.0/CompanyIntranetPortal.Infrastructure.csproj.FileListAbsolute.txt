@@ -1,0 +1,17 @@
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Infrastructure.deps.json
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Infrastructure.runtimeconfig.json
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Infrastructure.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Infrastructure.pdb
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Core.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\bin\Debug\net6.0\CompanyIntranetPortal.Core.pdb
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.csproj.AssemblyReference.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.AssemblyInfoInputs.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.AssemblyInfo.cs
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.csproj.CoreCompileInputs.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.csproj.CopyComplete
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\refint\CompanyIntranetPortal.Infrastructure.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.pdb
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\CompanyIntranetPortal.Infrastructure.genruntimeconfig.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Infrastructure\obj\Debug\net6.0\ref\CompanyIntranetPortal.Infrastructure.dll

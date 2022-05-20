@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none
+}
+
+.form-group {
+    margin:10px auto
+}
+
+.btn-blue {
+    background-color: #17a2b8 !important;
+    color:white
+}
+
+.btn-blue:hover {
+    background-color: #078da2 !important;
+    color: white
+}
+
+a {
+    color: #2868c9 !important;
+}
+
+    a:hover {
+        color: #0725ea !important
+    }

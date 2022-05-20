@@ -1,0 +1,41 @@
+﻿@model CompanyIntranetPortal.Models.VacationViewModel
+
+@{
+    ViewData["Title"] = "Vacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Create Vacation Application</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Vacation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" type="date" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaysCount" class="control-label"></label>
+                <input asp-for="DaysCount" class="form-control" />
+                <span asp-validation-for="DaysCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Substitute" class="control-label"></label>
+                <select id="typesSelect" asp-for="Substitute" class="form-control" asp-items="@ViewBag.Users">
+                    <option value="0">-- select one --</option>
+                </select>
+                <span asp-validation-for="Substitute" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-blue" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

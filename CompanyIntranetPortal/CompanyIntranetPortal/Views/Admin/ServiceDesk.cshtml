@@ -1,0 +1,65 @@
+﻿@using CompanyIntranetPortal.Core.Enums
+@model IEnumerable<CompanyIntranetPortal.Core.Entities.Ticket>
+
+@{
+    ViewData["Title"] = "ServiceDesk";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@using static CompanyIntranetPortal.Helpers.Helper
+<h4>Service Desk</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Type
+            </th>
+            <th>
+                Issue
+            </th>
+            <th>
+                Opend By
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TicketType.Name</td>
+                <td>@item.TicketIssue.Name</td>
+                <td>@item.User.FirstName @item.User.LastName</td>
+                <td>
+                     <span class="badge @(GetState(item.TicketState) )">
+                        @item.TicketState
+                    </span>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                     <div class="dropdown show" style="display:inline-block">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Update State
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" asp-action="TicketUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@TicketStates.Done">Done</a>
+                            <a class="dropdown-item" asp-action="TicketUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@TicketStates.Rejected">Rejected</a>
+                            <a class="dropdown-item" asp-action="TicketUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@TicketStates.Pending">Pending</a>
+                        </div>
+                    </div>
+                    @Html.ActionLink("Details", "TicketDetails", new { id=item.Id }) |
+                    @Html.ActionLink("Delete", "TicketDelete", new { id=item.Id})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

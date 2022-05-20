@@ -1,0 +1,12 @@
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\bin\Debug\net6.0\CompanyIntranetPortal.Core.deps.json
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\bin\Debug\net6.0\CompanyIntranetPortal.Core.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\bin\Debug\net6.0\CompanyIntranetPortal.Core.pdb
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.csproj.AssemblyReference.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.AssemblyInfoInputs.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.AssemblyInfo.cs
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.csproj.CoreCompileInputs.cache
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\refint\CompanyIntranetPortal.Core.dll
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\CompanyIntranetPortal.Core.pdb
+C:\PolitexProject\CompanyIntranetPortal\CompanyIntranetPortal.Core\obj\Debug\net6.0\ref\CompanyIntranetPortal.Core.dll

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CompanyIntranetPortal.Core.Entities.Vacancy>
+
+    @{
+        ViewData["Title"] = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <h4>Vacancies</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Position Name
+                </th>
+                <th>
+                    Due Date
+                </th>
+                <th>
+                    Created
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PositionName)
+                    </td>
+                    <td>
+                        @item.DueDate.ToShortDateString()
+                    </td>
+                    <td>
+                        @item.Created.ToShortDateString()
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id=item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

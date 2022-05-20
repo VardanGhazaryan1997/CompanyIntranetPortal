@@ -1,0 +1,54 @@
+﻿@model IEnumerable<CompanyIntranetPortal.Core.Entities.Vacancy>
+
+@{
+    ViewData["Title"] = "Vacancies";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4>Vacancies</h4>
+
+<p>
+    <a asp-action="VacancyCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Position Name
+            </th>
+            <th>
+               Job Description
+            </th>
+            <th>
+               Due Date
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PositionName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDescription)
+            </td>
+            <td>
+                @item.DueDate.ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "VacancyEdit", new { id=item.Id}) |
+                @Html.ActionLink("Details", "VacancyDetails", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "VacancyDelete", new { id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,65 @@
+﻿@using CompanyIntranetPortal.Core.Enums
+@model IEnumerable<CompanyIntranetPortal.Core.Entities.Application>
+@using static CompanyIntranetPortal.Helpers.Helper
+
+@{
+    ViewData["Title"] = "Applications";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h4>Applications</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Application Type
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                State
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @item.ApplicationType?.Name
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    <span class="badge @(GetState(item.ApplicationState) )">
+                        @item.ApplicationState
+                    </span>
+                </td>
+                <td>
+                    <div class="dropdown show" style="display:inline-block">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Update State
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" asp-action="ApplicationUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@ApplicationState.Approved">Approved</a>
+                            <a class="dropdown-item" asp-action="ApplicationUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@ApplicationState.Rejected">Rejected</a>
+                            <a class="dropdown-item" asp-action="ApplicationUpdateState" asp-controller="Admin" asp-route-id="@item.Id" asp-route-state="@ApplicationState.Pending">Pending</a>
+                        </div>
+                    </div>
+                    @Html.ActionLink("Details", "ApplicationDetails", new { id=item.Id})|
+                    @Html.ActionLink("Delete", "ApplicationDelete", new { id=item.Id})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

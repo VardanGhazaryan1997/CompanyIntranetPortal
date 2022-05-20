@@ -1,0 +1,75 @@
+﻿@using CompanyIntranetPortal.Core.Enums
+@using static CompanyIntranetPortal.Helpers.Helper
+@model IEnumerable<CompanyIntranetPortal.Infrastructure.Models.ApplicationCommonModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="action_row row d-flex align-items-center justify-content-center">
+    <div class="action_col col-md-4">
+        <a asp-action="BankAccount" asp-controller="EForms">
+            <img src="~/assets/img/bankAccount.png" alt="Bank Account Changing">
+            <span>Bank Account</span>
+        </a>
+    </div>
+    <div class="action_col col-md-4">
+        <a asp-controller="EForms" asp-action="Vacation">
+            <img src="~/assets/img/vacation.png" alt="Vacation">
+            <span>Vacation</span>
+        </a>
+    </div>
+    <div class="action_col col-md-4">
+        <a asp-controller="EForms" asp-action="DayOff">
+            <img src="~/assets/img/day-off.png" alt="Day Off">
+            <span>Day Off</span>
+        </a>
+    </div>
+    <div class="action_col col-md-4">
+        <a asp-controller="EForms" asp-action="JobLeft">
+            <img src="~/assets/img/work-left.png" alt="Job Left">
+            <span>Job left</span>
+        </a>
+    </div>
+</div>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <div style="margin-top:50px">
+        <h5>Created Applications</h5>
+
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Created)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Type)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ApplicationState)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Created)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </td>
+                        <td>
+                            <span class="badge @(GetState(item.ApplicationState) )">
+                                @item.ApplicationState
+                            </span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
